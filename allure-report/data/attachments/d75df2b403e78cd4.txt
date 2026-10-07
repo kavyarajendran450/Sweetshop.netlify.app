@@ -1,0 +1,25 @@
+=== EXCEPTION OCCURED ===
+Message: locator.click: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[@class = 'badge badge-success]' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:6381:25)
+    at InjectedScript._queryEngineAll (<anonymous>:7059:49)
+    at InjectedScript.querySelectorAll (<anonymous>:7046:30)
+    at eval (eval at evaluate (:311:30), <anonymous>:2:42)
+    at UtilityScript.evaluate (<anonymous>:313:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+  - waiting for locator('//span[@class = \'badge badge-success]')
+
+Stack: locator.click: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[@class = 'badge badge-success]' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:6381:25)
+    at InjectedScript._queryEngineAll (<anonymous>:7059:49)
+    at InjectedScript.querySelectorAll (<anonymous>:7046:30)
+    at eval (eval at evaluate (:311:30), <anonymous>:2:42)
+    at UtilityScript.evaluate (<anonymous>:313:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+  - waiting for locator('//span[@class = \'badge badge-success]')
+
+    at UIActions.click (C:\Users\KavyaRajendran(G10XI\OneDrive - G10X Technology Private Limited\Desktop\Work Documents\Credo\SweetShop_Project_ E2E\src\actions\uiActions.ts:27:40)
+    at HomePage.addyourBasket (C:\Users\KavyaRajendran(G10XI\OneDrive - G10X Technology Private Limited\Desktop\Work Documents\Credo\SweetShop_Project_ E2E\src\pages\homePage.ts:80:25)
+    at C:\Users\KavyaRajendran(G10XI\OneDrive - G10X Technology Private Limited\Desktop\Work Documents\Credo\SweetShop_Project_ E2E\tests\E2E.spec.ts:11:24
+====

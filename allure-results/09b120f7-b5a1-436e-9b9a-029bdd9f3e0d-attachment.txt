@@ -1,0 +1,14 @@
+=== EXCEPTION OCCURED ===
+Message: locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('//span[text() = \'Basket\']')
+
+Stack: locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('//span[text() = \'Basket\']')
+
+    at UIActions.click (C:\Users\KavyaRajendran(G10XI\OneDrive - G10X Technology Private Limited\Desktop\Work Documents\Credo\SweetShop_Project_ E2E\src\actions\uiActions.ts:27:40)
+    at HomePage.addyourBasket (C:\Users\KavyaRajendran(G10XI\OneDrive - G10X Technology Private Limited\Desktop\Work Documents\Credo\SweetShop_Project_ E2E\src\pages\homePage.ts:80:25)
+    at C:\Users\KavyaRajendran(G10XI\OneDrive - G10X Technology Private Limited\Desktop\Work Documents\Credo\SweetShop_Project_ E2E\tests\E2E.spec.ts:11:24
+====
+Screenshot capture Fail

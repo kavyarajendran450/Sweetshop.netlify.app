@@ -1,0 +1,19 @@
+=== EXCEPTION OCCURED ===
+Message: locator.fill: Error: strict mode violation: locator('//input[@id = \'name\']') resolved to 2 elements:
+    1) <input value="" id="name" type="text" required="" placeholder="" maxlength="30" class="form-control"/> aka locator('#name').first()
+    2) <input value="" id="name" type="text" required="" placeholder="" maxlength="30" class="form-control"/> aka locator('#name').nth(1)
+
+Call log:
+  - waiting for locator('//input[@id = \'name\']')
+
+Stack: locator.fill: Error: strict mode violation: locator('//input[@id = \'name\']') resolved to 2 elements:
+    1) <input value="" id="name" type="text" required="" placeholder="" maxlength="30" class="form-control"/> aka locator('#name').first()
+    2) <input value="" id="name" type="text" required="" placeholder="" maxlength="30" class="form-control"/> aka locator('#name').nth(1)
+
+Call log:
+  - waiting for locator('//input[@id = \'name\']')
+
+    at UIActions.fill (C:\Users\KavyaRajendran(G10XI\OneDrive - G10X Technology Private Limited\Desktop\Work Documents\Credo\SweetShop_Project_ E2E\src\actions\uiActions.ts:37:40)
+    at HomePage.addyourBasket (C:\Users\KavyaRajendran(G10XI\OneDrive - G10X Technology Private Limited\Desktop\Work Documents\Credo\SweetShop_Project_ E2E\src\pages\homePage.ts:83:25)
+    at C:\Users\KavyaRajendran(G10XI\OneDrive - G10X Technology Private Limited\Desktop\Work Documents\Credo\SweetShop_Project_ E2E\tests\E2E.spec.ts:11:9
+====
